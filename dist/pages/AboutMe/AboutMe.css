@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+
+
+#aboutme {
+
+  margin: auto;
+  padding: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding-top: 100px;
+ 
+  
+}
+
+
+
+#aboutme > h1 {
+  
+  font-size: 4rem;
+  background: whitesmoke;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Antonio", sans-serif;
+}
+
+
+
+#aboutme > a:hover {
+  
+  text-decoration: underline; 
+ 
+}
+
+
+#aboutme p {
+  max-width: 900px; 
+  margin: 0 auto;  
+  text-align: justify;
+
+ 
+  
+}
